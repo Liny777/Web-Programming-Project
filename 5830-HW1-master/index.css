@@ -1,0 +1,56 @@
+/**
+ * ECLT5830 Network and Web Programming
+ *
+ * I declare that the assignment here submitted is original
+ * except for source material explicitly acknowledged,
+ * and that the same or closely related material has not been
+ * previously submitted for another course.
+ * I also acknowledge that I am aware of University policy and
+ * regulations on honesty in academic work, and of the disciplinary
+ * guidelines and procedures applicable to breaches of such
+ * policy and regulations, as contained in the website.
+ *
+ * University Guideline on Academic Honesty:
+ * http://www.cuhk.edu.hk/policy/academichonesty/
+ *
+ * Student Name : Youguang Lin
+ * Student ID : 1155169171
+ * Date : 2021/10/11
+ */
+
+.grid-container {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 5px;
+  row-gap: 8px;
+  justify-content: center;
+}
+
+.grid-item {
+  display: flex;
+  text-align: center;
+  border: 2px solid black;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #2399ff;
+}
+.grid-item:hover{
+  scale: 1.1;
+  /* background-color: yellow; */
+  /* height:200px;
+  width:400px;
+  overflow:hidden;
+  position:relative; */
+  }
+  .grid-item:nth-child(odd){
+    background-color:#992200;
+    }
+  .grid-item:nth-child(3n+0){
+      background-color:#19924a
+      }
+ .grid-item:nth-child(odd):nth-child(3n+0){
+        background-color:#19924a
+        }
+/* Type you code below this line */

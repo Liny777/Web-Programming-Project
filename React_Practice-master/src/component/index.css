@@ -1,0 +1,8 @@
+.dada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    grid-row-gap: 15px;
+    /* margin-left: 20%; */
+    text-align: center;
+  }
